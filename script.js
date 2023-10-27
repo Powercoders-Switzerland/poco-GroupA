@@ -44,9 +44,7 @@ fetch('file.json')
     document.getElementById('sort-button').addEventListener('click', function() {
       sortCompaniesByRating();
     });
-    document.getElementById('sort-location').addEventListener('click', function() {
-      sortCompaniesByRating();
-    });
+  
   })
   .catch(error => {
     console.error("Error fetching JSON data: ", error);
