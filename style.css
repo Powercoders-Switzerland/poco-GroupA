@@ -54,6 +54,18 @@ h1 {
 #companyComparison {
     text-align: center;
     margin-top: 20px;
+    padding: 20px;
+}
+#compareButton {
+  background-color: #08de;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 10%;
+}
+h1 {
+  width: 30%;
+  margin: 0 auto;
 }
 .tableContainer {
     overflow: auto;

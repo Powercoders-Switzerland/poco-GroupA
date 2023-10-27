@@ -1,7 +1,6 @@
 fetch("data.json")
     .then(response => response.json())
     .then(data => {
-        console.log(data)
         const table = document.getElementById("company-table");
         const tbody = table.querySelector("tbody");
 
@@ -16,6 +15,11 @@ fetch("data.json")
             tbody.appendChild(row);
         });
     })
+    /* fetch("data.json")
+          .then(response => response.json())
+          .then(data => {
+            const company = document.createElement("")
+          }) */
     .catch(error => console.error("Error fetching data:", error));
  
 
