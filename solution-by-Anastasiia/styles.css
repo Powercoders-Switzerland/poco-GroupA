@@ -1,0 +1,56 @@
+#data-container .company-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 16px 0 0;
+    width: 45%;
+}
+
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.rating-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #87bdd8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 1rem;
+}
+
+.rating-btn:hover {
+    background-color: #5ca4a9;
+}
+
+#sort-button {
+    padding: 15px 25px;
+    margin: 3rem 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #be87d8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 1rem;
+}
+
+#sort-button:hover {
+    background-color: #ad40df;
+}

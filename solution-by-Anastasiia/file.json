@@ -1,0 +1,150 @@
+[
+    {
+        "company": "Galenica",
+        "location": "Bern",
+        "number_of_internships": "Two internships",
+        "department": "Software Engineering",
+        "skills": [
+            "C#",
+            "Java",
+            "React and Typescrypt",
+            "GitLab and/or Azure DevOps",
+            "Azure and especially Azure Kubernetes Service (AKS)"
+        ],
+        "about": "Galenica AG, headquartered in Bern, is an internationally active Swiss pharmaceutical and logistics company group",
+        "website": "https://www.galenica.com/en/",
+        "user_rating": 0
+    },
+    {
+        "company": "IBM Schweiz",
+        "location": "Zurich",
+        "number_of_internships": "One internship",
+        "department": "cross IT",
+        "skills": [
+            "Cloud API",
+            "Cloud Usage Models",
+            "Kubernetes Technologies",
+            "Programming Skills"
+        ],
+        "about": "IBM Schweiz",
+        "website": "https://www.ibm.com/de-de",
+        "user_rating": 0
+    },
+    {
+        "company": "Insel Gruppe",
+        "location": "Murtenstrasse 42, Bern",
+        "number_of_internships": "One internship",
+        "department": "Direktion Technologie und Innovation, Insel Data Science Center",
+        "skills": [
+            "Software/Application Development",
+            "Data Analytics / Business Intelligence",
+            "Machine Learning / Data Science"
+        ],
+        "about": "In 2016, the Inselspital merged with Spital Netz Bern AG to form the Insel Gruppe AG. This creates the largest and leading medical care system in Switzerland.",
+        "website": "https://www.inselgruppe.ch/de/",
+        "user_rating": 0
+    },
+    {
+        "company": "On Ag",
+        "location": "Zurich",
+        "number_of_internships": "One internship",
+        "department": "DTC",
+        "skills": [
+            "javascripts",
+            "nuxt.js node",
+            "vue.js",
+            "ruby on rails",
+            "Go"
+        ],
+        "about": "On is an athletic shoe and performance sportswear company originating in Switzerland.",
+        "website": "https://www.on-running.com/en-ch/explore/about-on",
+        "user_rating": 0
+    },
+    {
+        "company": "Siemens Schweiz AG",
+        "location": "Zug",
+        "number_of_internships": "Two internships",
+        "department": "R&D Zug Software",
+        "skills": [
+            "AWS",
+            "HTML5",
+            "Angular"
+        ],
+        "about": "Smart Infrastructure at Siemens intelligently connects energy systems, buildings and industries.",
+        "website": "https://www.siemens.com/ch/de.html",
+        "user_rating": 0
+    },
+    {
+        "company": "Iterativ",
+        "location": "Bern",
+        "number_of_internships": "One internship",
+        "department": "Software/Application Development",
+        "skills": ["JavaScript", "Angular", "Python", "Git"],
+        "user_rating": 0
+      },
+      {
+        "company": "KPT",
+        "location": "Bern",
+        "number_of_internships": "One internship",
+        "department": "Development",
+        "skills": ["IT architecture", "Java", "SQL"],
+        "user_rating": 0
+      },
+      {
+        "company": "Liip",
+        "location": "Zurich",
+        "number_of_internships": "Two internships",
+        "department": "Software Development",
+        "skills": ["PHP", "JavaScript", "CSS", "HTML"],
+        "user_rating": 0
+      },
+      {
+        "company": "PwC",
+        "location": "Zurich",
+        "number_of_internships": "Three internships",
+        "department": "Software Delivery & Operations",
+        "skills": ["Web Development", "DevOps", "Microsoft Power Platform", "AWS"],
+        "user_rating": 0
+      },
+      {
+        "company": "Roche",
+        "location": "Basel",
+        "number_of_internships": "Three internships",
+        "department": "Pharma commercial",
+        "skills": ["Git", "SQL", "Python"],
+        "user_rating": 0
+      },
+      {
+        "company": "Wyssen Avalanche",
+        "location": "Reichenbach i.K.",
+        "number_of_internships": "One internship",
+        "department": "Web Application Development",
+        "skills": ["Linux", "Docker", "MariaDB", "PHP", "VueJS", "NodeJS", "Python"],
+        "user_rating": 0
+      },
+      {
+        "company": "Swisscom",
+        "location": "Bern or Zurich",
+        "number_of_internships": "More than two internships",
+        "department": "IT Software Development / Cyber Security",
+        "skills": ["Sysadmin", "Red Hat Enterprise Linux", "Systemd", "Deployment", "Ansible", "Python"],
+        "user_rating": 0
+      },
+      {
+        "company": "Supercomputing Systems",
+        "location": "Zurich",
+        "number_of_internships": "One internship",
+        "department": "Software Development for Customers",
+        "skills": ["Software Development (C#, .NET or Java)", "Web Development (JavaScript, Angular)", "Cypress.io", "Git"],
+        "user_rating": 0
+      },
+      {
+        "company": "M&F Engineering",
+        "location": "Fahrweid",
+        "number_of_internships": "One internship",
+        "department": "Software Services / Application Development",
+        "skills": ["University degree in Computer Science or Engineering", "Object-Oriented Language", "Basic proficiency in German"],
+        "user_rating": 0
+      }
+    
+]
