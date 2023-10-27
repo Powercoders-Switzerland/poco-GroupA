@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Company Comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+    <h1>Company Comparison</h1>
+    <div id="companyComparison">
+        <select id="companySelect">
+            <option value="company1">Company 1</option>
+            <option value="company2">Company 2</option>
+            <option value="company3">Company 3</option>
+            <option value="company4">Company 4</option>
+        </select>
+        <button id="compareButton">Compare</button>
+    </div>
+    <div id="comparisonResults">
+        <div id="company1Data">
+            <h2>Company 1</h2>
+            <div id="company1Attributes"> </div>
+           
+        </div>
+        <div id="company2Data">
+            <h2>Company 2</h2>
+            <div id="company2Attributes"> </div>
+           
+        </div>
+        
+        <div id="company3Data">
+            <h2>Company 3</h2>
+            <div id="company3Attributes"> </div>
+           
+        </div>
+
+        <div id="company4Data">
+            <h2>Company 4</h2>
+            <div id="company4Attributes"> </div>
+           
+        </div>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

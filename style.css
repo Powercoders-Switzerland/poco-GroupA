@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#companyComparison {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#comparisonResults {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#company1Data, #company2Data, #company3Data, #company4Data {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+}
+
+#company1Data h2, #company2Data h2, #company3Data h2, #company4Data h2 {
+    text-align: center;
+}
+
+#compareButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#compareButton:hover {
+    background-color: #45a049;
+}
