@@ -1,82 +1,17 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Company Comparison</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Internship Rating App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&family=Roboto:wght@300;400;500;700;900&family=Sen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Company Comparison</h1>
-    <div id="companyComparison">
-        <select id="companySelect">
-            <option value="company1">Company 1</option>
-            <option value="company2">Company 2</option>
-            <option value="company3">Company 3</option>
-            <option value="company4">Company 4</option>
-        </select>
-        <button id="compareButton">Compare</button>
-    </div>
-    <div id="comparisonResults">
-        <div id="company1Data">
-            <h2>Company A</h2>
-            <div id="company1Attributes"> </div>        
-        </div>
-        <div id="company2Data">
-            <h2>Company B</h2>
-            <div id="company2Attributes"> </div>
-           
-        </div>
-        
-        <div id="company3Data">
-            <h2>Company C</h2>
-            <div id="company3Attributes"> </div>
-           
-        </div>
-
-        <div id="company4Data">
-            <h2>Company D</h2>
-            <div id="company4Attributes"> </div>
-           
-        </div>
-
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>  -->
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Comparison</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Company Comparison</h1>
-        <div id="companyComparison">
-            <select id="companySelect">
-                <option value="company1">Company A</option>
-                <option value="company2">Company B</option>
-                <option value="company3">Company C</option>
-                <option value="company4">Company D</option>
-            </select>
-            <button id="compareButton">Compare</button>
-        </div>
-        
-        <table id="company-table">
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Revenue</th>
-                    <th>Employees</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-    <script src="script.js"></script>
+  <h1>Rate Internship Companies</h1>
+  <div id="data-container"></div>
+  <button id="sort-button">Sort by Rating</button>
+  <button id="sort_location">Sort by Location</button>
+  <script src="script.js"></script>
 </body>
 </html>
- 
-

@@ -1,142 +1,100 @@
- 
-@media(min-width: 769px) {
-    .mobileColumnGroup {
-      display: none;
-    }
-  }
-  @media(max-width: 769px) {
-    .rowHeader, .emptyCell {
-      display: none;
-    }
-  }
-  /*
+#data-container .company-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 16px 0 0;
+  width: 45%;
+}
+
+#data-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 body {
-    font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-#companyComparison {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#comparisonResults {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-#company1Data, #company2Data, #company3Data, #company4Data {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 45%;
-}
-
-#company1Data h2, #company2Data h2, #company3Data h2, #company4Data h2 {
-    text-align: center;
-}
-
-#compareButton {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#compareButton:hover {
-    background-color: #45a049;
-}  */
-
-#companyComparison {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-}
-#compareButton {
-  background-color: #08de;
+.rating-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #87bdd8;
   color: white;
-  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
-  width: 10%;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 1rem;
 }
-h1 {
-  width: 30%;
-  margin: 0 auto;
+
+.rating-btn:hover {
+  background-color: #5ca4a9;
 }
-.tableContainer {
-    overflow: auto;
-    overflow-anchor: none;
-    position: relative;
-  }
-  .tableContainer caption {
-    height: 0px;
-  }
-  thead tr {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-  }
-  .rowHeader, [scope="colgroup"] span {
-    left: 0;
-    position: sticky;
-  }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: separate;
-    border-spacing: 0;
+
+#sort-button {
+  padding: 15px 25px;
+  margin: 3rem 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #be87d8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 1rem;
+}
+
+#sort-button:hover {
+  background-color: #ad40df;
+}
+
+.link {
+  margin-left: 0.3rem;
+  color: #5ca4a9;
+}
+
+.link:hover {
+  margin-left: 0.3rem;
+  color: #ad40df;
+}
+
+@media only screen and (max-width: 768px) {
+  #data-container .company-card {
     width: 100%;
-    table-layout: auto;
   }
-  td, th {
-    border: 1px solid #404e52;
-    text-align: center;
-    padding: 8px;
-    min-width: 100px;
-    max-width: 100px;
-    background: #dddddd;
+  
+  #sort-button, .rating-btn {
+    padding: 10px;
+    font-size: 14px;
   }
-  .mobileColumnGroup th {
-      text-align: left;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #data-container .company-card {
+    width: 100%;
   }
-  .rowHeader {
-    text-align: left;
+  
+  #sort-button, .rating-btn {
+    padding: 12px;
+    font-size: 15px;
+    background-color: #3498db; /* Default button background color */
+  color: #fff; /* Default button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
   }
-  .featureCheck {
-    color: green;
-  }
-  .featureX {
-    color: red;
-  }
-  thead.stickyHeader {
-    position: fixed;
-    z-index: 999;
-    overflow-x: scroll;
-    top: 0px;
-  }
-  thead.stickyHeader.atBottom {
-    position: absolute;
-    z-index: 999;
-    bottom: 0px;
-    left: 0px !important;
-    top: initial;
-    width: initial !important;
-    overflow-x: clip;
-  }
-  thead::-webkit-scrollbar {
-    height: 0px;
-  }
-  .horizontal-scroller {
-    position: fixed;
-    bottom: 0;
-    height: 30px;
-    overflow: auto;
-    overflow-y: hidden;
-  }
-  .horizontal-scroller-content {
-    height: 30px;
-  }
+}
+/* Add a hover glow effect to buttons */
+
+#sort-button:hover {
+  background-color: #2e86de; /* Button background color on hover */
+  box-shadow: 0 0 10px #2e86de; /* Glow effect on hover */
+}

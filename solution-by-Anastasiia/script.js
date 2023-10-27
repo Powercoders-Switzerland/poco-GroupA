@@ -22,6 +22,7 @@ function displayData(data) {
   function rateCompany(index, value) {
     jsonData[index].user_rating += value;
     document.getElementById(`rating-${index}`).textContent = jsonData[index].user_rating;
+    document.getElementById(`Internship-${index}`).textContent = jsonData[index].number_of_internships;
   }
   
   function sortCompaniesByRating() {
@@ -29,6 +30,10 @@ function displayData(data) {
     displayData(jsonData);
   }
   
+  function sortCompaniesByLocation(){
+    jsonData.sort((a, b) => b.location - a.location);
+    displayData(jsonData); 
+  }
 
   fetch('file.json')
     .then(response => response.json())
@@ -37,6 +42,9 @@ function displayData(data) {
       displayData(data); 
       
       document.getElementById('sort-button').addEventListener('click', function() {
+        sortCompaniesByRating();
+      });
+      document.getElementById('sort-location').addEventListener('click', function() {
         sortCompaniesByRating();
       });
     })
