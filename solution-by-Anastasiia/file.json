@@ -141,5 +141,76 @@
     ],
     "website": "https://www.roche.ch/",
     "user_rating": 0
+  },
+  {
+    "company": "Wyssen Avalanche",
+    "location": "Reichenbach i.K.",
+    "number_of_internships": "One internship",
+    "department": "Web Application Development",
+    "skills": [
+      "Linux",
+      "Docker",
+      "MariaDB",
+      "PHP",
+      "VueJS",
+      "NodeJS",
+      "Python"
+    ],
+    "website": "https://www.wyssenavalanche.com/",
+    "user_rating": 0
+  },
+  {
+    "company": "Swisscom",
+    "location": "Bern or Zurich",
+    "number_of_internships": "More than two internships",
+    "department": "IT Software Development / Cyber Security",
+    "skills": [
+      "Sysadmin",
+      "Red Hat Enterprise Linux",
+      "Systemd",
+      "Deployment",
+      "Ansible",
+      "Python"
+    ],
+    "website": "https://www.swisscom.ch/",
+    "user_rating": 0
+  },
+  {
+    "company": "Supercomputing Systems",
+    "location": "Zurich",
+    "number_of_internships": "One internship",
+    "department": "Software Development for Customers",
+    "skills": [
+      "Software Development (C#, .NET or Java)",
+      "Web Development (JavaScript, Angular)",
+      "Cypress.io",
+      "Git"
+    ],
+    "website": "https://www.scs.ch/",
+    "user_rating": 0
+  },
+  {
+    "company": "M&F Engineering",
+    "location": "Fahrweid",
+    "number_of_internships": "One internship",
+    "department": "Software Services / Application Development",
+    "skills": [
+      "University degree in Computer Science or Engineering",
+      "Object-Oriented Language",
+      "Basic proficiency in German"
+    ],
+    "website": "https://www.m-f.ch/",
+    "user_rating": 0
+  },
+  {
+    "company": "Bundesamt für Informatik",
+    "location": "Bern area",
+    "number_of_internships": "One internship",
+    "department": "Working for different clients in the government sector",
+    "skills": [
+      "Testing (in collaboration with Swiss Testing Board)"
+    ],
+    "website": "https://www.bit.admin.ch/",
+    "user_rating": 0
   }
 ]
