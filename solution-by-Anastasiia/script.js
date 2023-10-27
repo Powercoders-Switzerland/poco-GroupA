@@ -9,6 +9,7 @@ function displayData(data) {
           <p><strong>Number of Internships:</strong> ${item.number_of_internships}</p>
           <p><strong>Department:</strong> ${item.department}</p>
           <p><strong>Skills:</strong> ${item.skills.join(', ')}</p>
+          <p><strong>Website:</strong><a class="link" href="${item.website}">${item.website}</a></p>
           <p><strong>User Rating:</strong> <span id="rating-${index}">${item.user_rating}</span></p>
           <button class="rating-btn" onclick="rateCompany(${index}, 1)">Rate +1</button>
           <button class="rating-btn" onclick="rateCompany(${index}, -1)">Rate -1</button>
